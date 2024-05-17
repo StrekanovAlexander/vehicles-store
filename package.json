@@ -1,10 +1,10 @@
 {
   "name": "vehicles-store",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "engine": {
+    "node": "20.x"
   }
 }
